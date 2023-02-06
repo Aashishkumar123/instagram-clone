@@ -18,3 +18,14 @@
 .instagram-sidebar .insta-menu a:hover{
     background-color: var(--primary);
 }
+.instagram-sidebar .insta-menu .dropup .dropdown-menu{
+    background-color: var(--light);
+    border-radius: 7px;
+}
+.instagram-sidebar .insta-menu .dropup .dropdown-menu li{
+    color: var(--text);
+    transition: 0.3s ease-in-out;
+}
+.instagram-sidebar .insta-menu .dropup .dropdown-menu li:hover{
+    background-color: var(--primary);
+}
