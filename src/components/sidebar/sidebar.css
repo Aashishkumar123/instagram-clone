@@ -1,0 +1,20 @@
+.instagram-sidebar{
+    width: 17%;
+    height: 100vh;
+    background-color: var(--secondary);
+    float: left;
+    border-right: 1px solid var(--border-color);
+}
+.instagram-sidebar .lnsta-logo img{
+    width: 100px;
+}
+.instagram-sidebar .insta-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--text);
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+}
+.instagram-sidebar .insta-menu a:hover{
+    background-color: var(--primary);
+}

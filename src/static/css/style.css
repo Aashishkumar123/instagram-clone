@@ -1,0 +1,25 @@
+@font-face {
+    font-family: proximanNova-medium;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: proximanNova-medium;
+}
+
+.light{
+    --primary : #FAFAFA;
+    --secondary : #ffff;
+    --text : var(--bs-dark);
+    --border-color : #DBDBDB;
+}
+
+.dark{
+    --primary : #121212;
+    --secondary : #000000;
+    --text : var(--bs-white);
+    --border-color : #262626;
+}
