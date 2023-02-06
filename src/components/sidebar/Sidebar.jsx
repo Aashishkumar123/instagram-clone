@@ -10,7 +10,7 @@ export const Sidebar = ()=>{
         <>
             <div className="instagram-sidebar py-4">
                 <div className="lnsta-logo px-4">
-                    <img src={instagram_white_logo} className="img-fluid" alt="instagram-logo" />
+                    <img {...(localStorage.getItem('theme') === 'light' ? {src : instagram_black_logo} : {src : instagram_white_logo})} className="img-fluid" alt="instagram-logo" />
                 </div>
                 <div className="insta-menu mt-4">
                     <Link to="" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
