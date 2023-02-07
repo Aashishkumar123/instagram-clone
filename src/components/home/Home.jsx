@@ -1,4 +1,4 @@
-import { Sidebar } from "../components/sidebar/Sidebar"
+import { Sidebar } from "../sidebar/Sidebar"
 import "./home.css";
 
 

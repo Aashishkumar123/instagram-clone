@@ -1,4 +1,4 @@
-import { HomeMain } from "../home/Home"
+import { HomeMain } from "../components/home/Home"
 
 
 export const Home = ()=>{

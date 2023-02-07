@@ -1,0 +1,25 @@
+.instagram-profile-section{
+    width: 85%;
+    font-family: proximanNova-bold;
+    color: var(--text);
+}
+
+.instagram-profile-section .profile-img img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.instagram-profile-section .profile-info{
+    font-family: proximanNova-bold;
+}
+
+.instagram-profile-section .profile-info .profile-info-1 a{
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: proximanNova-bold;
+    background-color:#EEEEEE;
+}
+
+.instagram-profile-section .profile-info .profile-info-1 a:hover{
+    background-color: #DBDBDB;
+}

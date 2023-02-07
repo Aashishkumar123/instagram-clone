@@ -40,7 +40,7 @@ export const Sidebar = ()=>{
                     <img {...(localStorage.getItem('theme') === 'light' ? {src : instagram_black_logo} : {src : instagram_white_logo})} className="img-fluid" alt="instagram-logo" />
                 </div>
                 <div className="insta-menu mt-5">
-                    <Link to="" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
+                    <Link to="/" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="22" width="22"><g><polyline points="0.5 7 7 0.5 13.5 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline><polyline points="2.5 8.5 2.5 13.5 11.5 13.5 11.5 8.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></polyline></g></svg>
                         <span className="px-3">Home</span>
                     </Link>
@@ -68,9 +68,9 @@ export const Sidebar = ()=>{
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="22" width="22"><g><g><line x1="7" y1="4" x2="7" y2="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></line><line x1="4" y1="7" x2="10" y2="7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></line></g><rect x="0.5" y="0.5" width="13" height="13" rx="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></rect></g></svg>
                         <span className="px-3">Create</span>
                     </Link>
-                    <Link to="" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
+                    <Link to="/aashishkumar12376/" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
                         <img src={profile} alt="" style={{width:"25px",borderRadius:"50%"}} />
-                        <span className="px-3">Profile</span>
+                        <span className="px-3" {...(window.location.pathname === '/aashishkumar12376/' ? {style : {fontFamily:"proximanNova-bold"}} : {})}>Profile</span>
                     </Link>
                     <div className="dropup" style={{position:"absolute",bottom:"35px",width:"16%"}}>
                         <Link to="" className="d-flex align-items-center px-3 py-2 mx-2" data-bs-toggle="dropdown" aria-expanded="false" id="more-dropdown">

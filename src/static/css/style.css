@@ -3,6 +3,11 @@
     src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-medium.otf");
 }
 
+@font-face {
+    font-family: proximanNova-bold;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-bold.otf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,4 +29,11 @@
     --text : var(--bs-white);
     --border-color : #262626;
     --light : #262626;
+}
+
+.main-content{
+    width: 83%;
+    background-color: var(--primary);
+    float: right;
+    height: 100vh;
 }
