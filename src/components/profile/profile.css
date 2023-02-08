@@ -23,3 +23,11 @@
 .instagram-profile-section .profile-info .profile-info-1 a:hover{
     background-color: #DBDBDB;
 }
+
+.instagram-profile-section .profile-info .profile-info-2 span{
+    font-size: 17px;
+}
+
+.instagram-profile-section .profile-info .profile-info-2 .numbers{
+    font-family: proximanNova-bold;
+}
