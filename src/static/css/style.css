@@ -13,6 +13,11 @@
     src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-semibold.otf");
 }
 
+@font-face {
+    font-family: proximanNova-extrabold;
+    src: url("../../Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-extrabold.otf");
+}
+
 *{
     margin: 0;
     padding: 0;

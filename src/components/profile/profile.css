@@ -64,3 +64,17 @@
 .profile-tab a:hover{
     color: var(--text);
 }
+
+.instagram-posts{
+    color : var(--text);
+}
+
+.instagram-posts h2{
+    font-family: proximanNova-extrabold;
+}
+
+.instagram-posts a{
+    color: #3B96ED;
+    font-family: proximanNova-bold;
+    text-decoration: none;
+}
