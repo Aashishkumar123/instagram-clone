@@ -4,6 +4,7 @@ import instagram_white_logo from "../../static/images/instagram-white.png";
 import profile from "../../static/images/profile.png";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { Postmodal } from "../profile/Postmodal";
 
 
 export const Sidebar = ()=>{
@@ -64,7 +65,7 @@ export const Sidebar = ()=>{
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="22" width="22"><path d="M7,12.45l-5.52-5c-3-3,1.41-8.76,5.52-4.1,4.11-4.66,8.5,1.12,5.52,4.1Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                         <span className="px-3">Notifications</span>
                     </Link>
-                    <Link to="" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
+                    <Link to="" className="d-flex align-items-center px-3 py-2 mx-2 mt-3" data-bs-toggle="modal" data-bs-target="#postModel">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="22" width="22"><g><g><line x1="7" y1="4" x2="7" y2="10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></line><line x1="4" y1="7" x2="10" y2="7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></line></g><rect x="0.5" y="0.5" width="13" height="13" rx="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></rect></g></svg>
                         <span className="px-3">Create</span>
                     </Link>
@@ -106,6 +107,7 @@ export const Sidebar = ()=>{
                     </div>
                 </div>
             </div>
+            <Postmodal />
         </>
     )
 }
