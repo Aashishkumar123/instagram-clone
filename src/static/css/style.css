@@ -32,6 +32,7 @@
     --border-color : #DBDBDB;
     --light : #ffff;
     --link : #09376B;
+    --primary-light : var(--secondary);
 }
 
 .dark{
@@ -41,6 +42,7 @@
     --border-color : #262626;
     --light : #262626;
     --link : #E0F1FD;
+    --primary-light : #262626;
 }
 
 .main-content{
@@ -61,4 +63,26 @@ footer a, footer span{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+.modal-content{
+    background-color: var(--primary-light);
+    color: var(--text);
+    border-radius: 10px;
+    height: 80vh;
+}
+
+.modal-content button{
+    background-color: #3396F1;
+    border-radius: 10px;
+    font-family: proximanNova-bold;
+    font-size: 15px;
+}
+
+.modal-content button:hover{
+    background-color: #1877F2;
+}
+
+.modal-body{
+    padding-top: 10rem;
 }
