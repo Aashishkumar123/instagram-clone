@@ -4,6 +4,7 @@
     background-color: var(--secondary);
     float: left;
     border-right: 1px solid var(--border-color);
+    position: fixed;
 }
 .instagram-sidebar .lnsta-logo img{
     width: 100px;

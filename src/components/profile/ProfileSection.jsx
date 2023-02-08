@@ -13,7 +13,7 @@ export const ProfileSection = ()=>{
                     <div className="col-sm-9 px-5 mt-2">
                         <ProfileInfo />
                     </div>
-                    <div className="mt-5"></div>
+                    <div className="mt-4"></div>
                     <hr />
                 </div>
             </div>
