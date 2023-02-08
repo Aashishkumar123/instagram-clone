@@ -70,7 +70,7 @@ export const Sidebar = ()=>{
                     </Link>
                     <Link to="/aashishkumar12376/" className="d-flex align-items-center px-3 py-2 mx-2 mt-3">
                         <img src={profile} alt="" style={{width:"25px",borderRadius:"50%"}} />
-                        <span className="px-3" {...(window.location.pathname === '/aashishkumar12376/' ? {style : {fontFamily:"proximanNova-bold"}} : {})}>Profile</span>
+                        <span className="px-3" {...(window.location.pathname === '/aashishkumar12376' ? {style : {fontFamily:"proximanNova-bold"}} : {})}>Profile</span>
                     </Link>
                     <div className="dropup" style={{position:"absolute",bottom:"35px",width:"16%"}}>
                         <Link to="" className="d-flex align-items-center px-3 py-2 mx-2" data-bs-toggle="dropdown" aria-expanded="false" id="more-dropdown">

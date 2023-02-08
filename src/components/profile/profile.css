@@ -54,3 +54,13 @@
 .instagram-profile-section .profile-info .profile-info-3 .web-link:hover{
     text-decoration: underline;
 }
+
+.profile-tab a{
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--text);
+}
+
+.profile-tab a:hover{
+    color: var(--text);
+}

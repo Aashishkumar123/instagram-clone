@@ -27,9 +27,9 @@ export const ProfileInfo = ()=>{
                 <div className="profile-info-3 mt-4 px-3">
                     <h6>Aashish | Software Engineer 🇮🇳</h6>
                     <p>
-                        Building <Link to="">@locosub_in</Link> <br />
+                        Building <Link to="">&#64;locosub_in</Link> <br />
                         Content creator👨‍🎓 <br />
-                        A man behind <Link to="">@_pythonworld_</Link> <br />
+                        A man behind <Link to="">{`@`}_pythonworld_</Link> <br />
                         📍Delhi🇮🇳 <br />
                         Website👇 <br />
                         <Link to="" className="web-link">www.pythonworld.io</Link>
