@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+
+
 export const ProfileInfo = ()=>{
     return(
         <>
@@ -20,6 +23,17 @@ export const ProfileInfo = ()=>{
                         <span className="numbers">350</span> 
                         <span className="px-2">following</span>
                     </div>   
+                </div>
+                <div className="profile-info-3 mt-4 px-3">
+                    <h6>Aashish | Software Engineer 🇮🇳</h6>
+                    <p>
+                        Building <Link to="">@locosub_in</Link> <br />
+                        Content creator👨‍🎓 <br />
+                        A man behind <Link to="">@_pythonworld_</Link> <br />
+                        📍Delhi🇮🇳 <br />
+                        Website👇 <br />
+                        <Link to="" className="web-link">www.pythonworld.io</Link>
+                    </p>
                 </div>
             </div>
         </>

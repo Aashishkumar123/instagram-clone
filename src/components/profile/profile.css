@@ -31,3 +31,26 @@
 .instagram-profile-section .profile-info .profile-info-2 .numbers{
     font-family: proximanNova-bold;
 }
+
+.instagram-profile-section .profile-info .profile-info-3 h6{
+    font-family: proximanNova-semibold;
+    line-height: 0;
+}
+
+.instagram-profile-section .profile-info .profile-info-3 p{
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.instagram-profile-section .profile-info .profile-info-3 a{
+    text-decoration: none;
+    color: var(--link);
+}
+
+.instagram-profile-section .profile-info .profile-info-3 .web-link{
+    font-family: proximanNova-semibold;
+}
+
+.instagram-profile-section .profile-info .profile-info-3 .web-link:hover{
+    text-decoration: underline;
+}

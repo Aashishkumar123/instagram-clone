@@ -10,9 +10,11 @@ export const ProfileSection = ()=>{
                     <div className="col-sm-3 text-center mt-5">
                         <ProfileImg />
                     </div>
-                    <div className="col-sm-9 px-5 mt-3">
+                    <div className="col-sm-9 px-5 mt-2">
                         <ProfileInfo />
                     </div>
+                    <div className="mt-5"></div>
+                    <hr />
                 </div>
             </div>
         </>

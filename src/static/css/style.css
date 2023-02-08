@@ -26,6 +26,7 @@
     --text : var(--bs-dark);
     --border-color : #DBDBDB;
     --light : #ffff;
+    --link : #09376B;
 }
 
 .dark{
@@ -34,6 +35,7 @@
     --text : var(--bs-white);
     --border-color : #262626;
     --light : #262626;
+    --link : #E0F1FD;
 }
 
 .main-content{
