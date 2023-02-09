@@ -19,7 +19,7 @@ export const Settingmodal = ()=>{
                                 <SettingItem link="" title="Emails from Instagram" />
                                 <SettingItem link="" title="Report a problem" />
                                 <SettingItem link="" title="Log Out" />
-                                <SettingItem link="" title="Cancel" />
+                                <Link to="" data-bs-dismiss="modal" class="list-group-item list-group-item-action">Cancel</Link>
                             </div>
                         </div>
                     </div>
