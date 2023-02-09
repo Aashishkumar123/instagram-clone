@@ -79,7 +79,7 @@
     text-decoration: none;
 }
 
-.saved-posts{
+.saved-posts, .tagged-posts{
     width: 80%;
 }
 
@@ -94,7 +94,7 @@
     color: var(--text);
 }
 
-.saved-posts h4{
+.saved-posts h4, .tagged-posts h4{
     font-family: proximanNova-extrabold;
     color: var(--text);
 }
