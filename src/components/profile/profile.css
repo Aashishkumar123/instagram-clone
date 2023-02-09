@@ -78,3 +78,27 @@
     font-family: proximanNova-bold;
     text-decoration: none;
 }
+
+.saved-posts{
+    width: 80%;
+}
+
+.saved-posts a{
+    color: #3B96ED;
+    font-family: proximanNova-bold;
+    text-decoration: none;
+}
+
+.saved-posts p{
+    font-size: 14px;
+    color: var(--text);
+}
+
+.saved-posts h4{
+    font-family: proximanNova-extrabold;
+    color: var(--text);
+}
+
+.saved-posts a:hover{
+    color: var(--text);
+}
