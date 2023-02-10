@@ -8,6 +8,7 @@ import { Profile } from "./pages/profile/Profile";
 import { Saved } from "./pages/profile/Saved";
 import { Tagged } from "./pages/profile/Tagged";
 import { Followers } from "./pages/profile/Followers";
+import { Following } from "./pages/profile/Following";
 
 import "./static/css/bootstrap.css";
 import "./static/css/style.css";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/aashishkumar12376/saved" element={<Saved />} />
           <Route path="/aashishkumar12376/tagged" element={<Tagged />} />
           <Route path="/aashishkumar12376/followers" element={<Followers />} />
+          <Route path="/aashishkumar12376/following" element={<Following />} />
         </Routes>
       </BrowserRouter>
   );
