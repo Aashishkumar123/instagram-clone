@@ -4,9 +4,9 @@ import {
   Route }
   from "react-router-dom";
 import { Home } from "./pages/Home";
-import { Profile } from "./pages/Profile";
-import { Saved } from "./pages/Saved";
-import { Tagged } from "./pages/Tagged";
+import { Profile } from "./pages/profile/Profile";
+import { Saved } from "./pages/profile/Saved";
+import { Tagged } from "./pages/profile/Tagged";
 
 import "./static/css/bootstrap.css";
 import "./static/css/style.css";
