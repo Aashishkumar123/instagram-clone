@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Settingmodal } from "./Settingmodal"
+import { Followersmodal } from "./Followersmodal"
 
 
 export const ProfileInfo = ()=>{
@@ -16,9 +17,9 @@ export const ProfileInfo = ()=>{
                         <span className="numbers">0</span> 
                         <span className="px-2">posts</span>
                     </div>
-                    <div className="px-3">
+                    <div className="px-3" data-bs-toggle="modal" data-bs-target="#followersModel">
                         <span className="numbers">590</span> 
-                        <span className="px-2">followers</span>
+                        <Link to="/aashishkumar12376/followers" style={{color:"var(--text)",textDecoration:"none"}}><span className="px-2">followers</span></Link>
                     </div>
                     <div className="px-3">
                         <span className="numbers">350</span> 
@@ -38,6 +39,7 @@ export const ProfileInfo = ()=>{
                 </div>
             </div>
             <Settingmodal />
+            <Followersmodal />
         </>
     )
 }
