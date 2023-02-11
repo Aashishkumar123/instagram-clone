@@ -1,0 +1,25 @@
+.accounts{
+    width: 80%;
+    background-color: var(--secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text);
+}
+
+.accounts .row .col-sm-3 .account-sidemenu{
+    border-right: 1px solid var(--border-color);
+}
+
+.accounts .account-sidemenu .list-group-item{
+    background-color: var(--secondary);
+    color: var(--text);
+    border-radius: 0;
+    border: 0;
+}
+
+.accounts .account-sidemenu .list-group-item:hover{
+    background-color: var(--primary);
+}
+
+.account-list-item-active{
+    border: 10px solid var(--text);
+}
